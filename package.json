@@ -1,12 +1,23 @@
 {
   "name": "labs",
   "version": "1.0.0",
-  "description": "",
+  "description": "Editing",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "node Lab2/index.js"
   },
   "author": "Andras",
-  "license": "ISC"
+  "dependencies": {
+    "express": "^4.13.4"
+  },
+  "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/1808097/CM4025-Lab2.git"
+  },
+  "bugs": {
+    "url": "https://github.com/1808097/CM4025-Lab2/issues"
+  },
+  "homepage": "https://github.com/1808097/CM4025-Lab2#readme"
 }
