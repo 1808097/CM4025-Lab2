@@ -2,10 +2,10 @@
   "name": "labs",
   "version": "1.0.0",
   "description": "Editing",
-  "main": "index.js",
+  "main": "server.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "node Lab2/index.js"
+    "start": "node Lab2/server.js"
   },
   "author": "Andras",
   "dependencies": {
