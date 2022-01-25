@@ -21,8 +21,14 @@ adminRouter.get('/', function(req, res) {
 adminRouter.get('/users', function(req, res) {
  res.send('I show all the users!'); });
 
+adminRouter.param('name', function(req, res, next, name) {
+    console.log('doing name validations on ' + name);
+    req.name = name;
+    next();
+    });
+
 adminRouter.get('/users/:name', function(req, res) {
- res.send('hello ' + req.params.name + '!'); });
+ res.send('hello ' + req.name + '!'); });
 
 adminRouter.get('/posts', function(req, res) {
  res.send('I show all the posts!'); });
